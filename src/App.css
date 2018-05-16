@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: table;
+}
+
+.cell {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.row {
+  margin: 0px auto 0px;
+  width: 246px;
+  vertical-align: middle;
+}
+
+.player {
+  margin: 10px auto 0px;
+  width: 246px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.winner {
+  margin: 10px auto 0px;
+  width: 246px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
